@@ -1,0 +1,14 @@
+libssl-dev
+portaudio19-dev
+build-essential
+libssl-dev
+libffi-dev
+libatlas3-base
+mplayer
+libav-tools
+python-yaml
+python-pycparser
+python-paramiko
+python-markupsafe
+libttspico-utils
+pulseaudio

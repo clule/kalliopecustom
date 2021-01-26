@@ -1,0 +1,10 @@
+
+- name: "deaf-synapse"
+  signals:
+    - order: "stop listening"
+  neurons:
+    - say:
+        message:
+          - "I stop hearing you, sir"
+    - deaf:
+        status: True
