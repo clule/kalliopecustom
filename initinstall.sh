@@ -83,7 +83,7 @@ install_kalliope(){
     else
         echo_yellow "Cloning the project"
         # clone the project
-        git clone https://github.com/clule/kalliope.git
+        git clone https://github.com/clule/kalliopecustom.git
         #######git clone https://github.com/kalliope-project/kalliope.git
         echo_green "Cloning the project...[OK]"
     fi
