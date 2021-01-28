@@ -47,7 +47,7 @@ setup(
     description='Kalliope is a modular always-on voice controlled personal assistant designed for home automation.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/clule/kalliopecustom'
+    url='https://github.com/clule/kalliopecustom',
     #########url='https://github.com/kalliope-project/kalliope',
     author='The dream team of Kalliope-project',
     author_email='kalliope-project@googlegroups.com',
@@ -71,8 +71,9 @@ setup(
     # included packages
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     python_requires=">=3.6",
-    '''here are the explaination
+    
     # required libs
+    
     install_requires=[
         'Werkzeug==0.16.1',
         'pyyaml>=5.1',
@@ -105,7 +106,7 @@ setup(
         'urllib3>=1.25.3',
         'gevent>=20.9.0'
     ],
-'''
+    
     # additional files
     package_data={
         'kalliope': extra_files,

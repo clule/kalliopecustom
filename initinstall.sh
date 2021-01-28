@@ -9,7 +9,8 @@
 # Variables
 #------------------------------------------
 # name of the branch to install
-branch="master"
+branch="main"
+########branch="master"
 python_version="3.7.6"
 pulseaudio_service_path="/etc/systemd/system/pulseaudio.service"
 #------------------------------------------
@@ -78,7 +79,8 @@ install_pico2wave(){
 explanation1
 
 install_kalliope(){
-    if [[ -d "kalliope" ]]; then
+    if [[ -d "kalliopecustom" ]]; then
+    #####if [[ -d "kalliope" ]]; then
         echo_green "Source folder already cloned"
     else
         echo_yellow "Cloning the project"
@@ -91,7 +93,8 @@ install_kalliope(){
     echo_yellow "Installing Kalliope..."
     # fix for last ansible
     #########sudo pip3 install "ansible==2.9.5"
-    cd kalliope
+    cd kalliopecustom
+    #########cd kalliope
     git checkout ${branch}
     sudo python3 setup.py install
     cd ..
